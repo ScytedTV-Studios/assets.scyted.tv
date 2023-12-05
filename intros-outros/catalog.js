@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Fetch the JSON file
     fetch('catalogItems.json')
         .then(response => response.json())
         .then(data => generateCatalog(data.items))
@@ -11,11 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
         items.forEach(item => {
             const catalogItem = document.createElement('div');
             catalogItem.innerHTML = `
-                <h2>${item.fileName}</h2>
                 <div class="preview">
                     ${generatePreview(item.fileLink, item.fileName)}
                 </div>
-                <a href="${item.fileDownloadLink}" class="download-btn" download>Download</a>
+                <div class="file-details">
+                    <h2>${item.fileName}</h2>
+                    <a href="${item.fileDownloadLink}" class="download-btn" download>Download</a>
+                </div>
             `;
             catalogSection.appendChild(catalogItem);
         });
@@ -37,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
                         Your browser does not support the audio tag.
                     </audio>`;
         } else {
-            // Add support for other file types if needed
             return `<p>Preview not available</p>`;
         }
     }

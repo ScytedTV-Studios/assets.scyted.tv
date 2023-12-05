@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function () {
         folders.forEach(folder => {
             const folderElement = document.createElement('section');
             folderElement.innerHTML = `
-                <h2>${folder.name}</h2>
                 <ul>
                     <li><a href="${folder.location}">${folder.name}</a></li>
                 </ul>

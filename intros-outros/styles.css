@@ -1,9 +1,9 @@
-/* Add your existing styles or any additional styles here */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -17,10 +17,8 @@ header {
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
     background-color: #fff;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -66,6 +64,7 @@ a:hover {
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
+    margin-top: 10px; /* Add margin-top */
 }
 
 .download-btn:hover {

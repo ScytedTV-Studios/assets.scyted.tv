@@ -1,28 +1,8 @@
 {
     "folders": [
         {
-            "name": "Asset Library",
-            "location": "assets/index.html"
-        },
-        {
-            "name": "Asset Test",
-            "location": "assets/test/index.html"
-        },
-        {
-            "name": "Audio",
-            "location": "assets/audio/index.html"
-        },
-        {
-            "name": "Video",
-            "location": "assets/video/index.html"
-        },
-        {
-            "name": "Image",
-            "location": "assets/image/index.html"
-        },
-        {
-            "name": "Other Formats",
-            "location": "assets/other/index.html"
+            "name": "Intros and Outros",
+            "location": "intros-outros/index.html"
         }
     ]
 }

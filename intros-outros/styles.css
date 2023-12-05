@@ -1,9 +1,9 @@
+/* Add your existing styles or any additional styles here */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -17,8 +17,10 @@ header {
 }
 
 main {
-    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -64,7 +66,6 @@ a:hover {
     border-radius: 5px;
     display: inline-block;
     cursor: pointer;
-    margin-top: 10px; /* Add margin-top */
 }
 
 .download-btn:hover {
@@ -89,42 +90,6 @@ a:hover {
     width: 100%;
     max-width: 100%;
     height: auto;
-}
-
-/* Styles for the file preview */
-.preview {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-/* Additional styles for specific media types */
-.preview img {
-    max-width: 100%;
-    height: auto;
-}
-
-.preview video,
-.preview audio {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-
-/* New styles for file details */
-.file-details {
-    text-align: center;
-    margin-top: 10px;
-}
-
-/* Ensure 2 files per line */
-@media (min-width: 768px) {
-    #catalogSection > div {
-        width: 50%;
-        box-sizing: border-box;
-        float: left;
-        padding: 0 10px;
-    }
 }
 
 /* Styles for the file preview */

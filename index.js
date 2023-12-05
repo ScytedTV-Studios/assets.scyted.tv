@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const folderElement = document.createElement('section');
             folderElement.innerHTML = `
                 <ul>
-                    <li><a href="${folder.location}">${folder.name}</a></li>
+                    <li><a href="● ${folder.location}">${folder.name}</a></li>
                 </ul>
             `;
             foldersSection.appendChild(folderElement);

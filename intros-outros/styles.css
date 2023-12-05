@@ -71,3 +71,23 @@ a:hover {
 .download-btn:hover {
     background-color: #0056b3;
 }
+
+/* Styles for the file preview */
+.preview {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Additional styles for specific media types */
+.preview img {
+    max-width: 100%;
+    height: auto;
+}
+
+.preview video,
+.preview audio {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}

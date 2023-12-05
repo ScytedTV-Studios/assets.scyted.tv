@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
                         <source src="${fileLink}" type="video/${fileExtension}">
                         Your browser does not support the video tag.
                     </video>`;
+        } else if (fileExtension === 'mp3' || fileExtension === 'ogg' || fileExtension === 'wav') {
+            return `<audio controls>
+                        <source src="${fileLink}" type="audio/${fileExtension}">
+                        Your browser does not support the audio tag.
+                    </audio>`;
         } else {
             // Add support for other file types if needed
             return `<p>Preview not available</p>`;

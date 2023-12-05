@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "name": "Asset Library",
+            "location": "assets/index.html"
+        },
+        {
+            "name": "Audio",
+            "location": "assets/audio/index.html"
+        },
+        {
+            "name": "Video",
+            "location": "assets/video/index.html"
+        },
+        {
+            "name": "Image",
+            "location": "assets/image/index.html"
+        },
+        {
+            "name": "Other Formats",
+            "location": "assets/other/index.html"
+        }
+    ]
+}

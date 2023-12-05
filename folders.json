@@ -5,6 +5,10 @@
             "location": "assets/index.html"
         },
         {
+            "name": "Asset Library",
+            "location": "assets/test/index.html"
+        },
+        {
             "name": "Audio",
             "location": "assets/audio/index.html"
         },
